@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FİLM SİTESİ (FİNAL Proje)</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-- Box İcon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+     <!-- Başlık -->   
+     <header>
+        <div class="nav container">
+            <!-- logo -->
+            <a href="index.html" class="logo">
+                film<span>izle</span>
+            </a>
+            <!-- Arama Kutusu -->
+            <div class="search-box">
+                <input type="search" name="" id="search-input"   placeholder="Film ara">
+                <i class='bx bx-search'></i>
+            </div>
+            <!-- Kullanıcı -->
+            <a href="Giris.html" class="user">
+                <img src="img/profile-2.jpg" class="user-img" alt="">
+            </a>
+            <!-- Navbar -->
+            <div class="navbar">
+                <a href="#home" class="navlink nav-active">
+                    <i class="bx bx-home"></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#popular" class="navlink">
+                    <i class="bx bxs-hot"></i>
+                    <span class="nav-link-title">Trendler</span>
+                </a>
+                <a href="#movies" class="navlink">
+                    <i class="bx bx-compass"></i>
+                    <span class="nav-link-title">Keşfet</span>
+                </a>
+                <a href="#movies2" class="navlink">
+                    <i class="bx bx-tv"></i>
+                    <span class="nav-link-title">Filmler</span>
+                </a>
+                <a href="#listem" class="navlink">
+                    <i class="bx bx-heart"></i>
+                    <span class="nav-link-title">Favori</span>
+                </a>
+            </div>
+        </div>
+     </header>
+     <!-- Ana Sayfa -->
+     <section class="home container" id="home">
+        <!-- Ana Sayfa img -->
+        <img src="img/img333.webp" alt="" class="home-img">
+        <!-- Ana Sayfa text -->
+        <div class="home-text">
+            <h1 class="home-title">Creed III: Efsane Devam Ediyor</h1>
+            <p>3 Martta Sinemalarda</p>
+            <a href="Creed-III.html" class="watch-btn">
+                <i class="bx bx-right-arrow"></i>
+                <span>Fragman İzle</span>
+            </a>
+        </div>
+     </section>
+     <!-- Home End -->
+     <!-- Populer Filmler Start -->
+     <section class="popular container" id="popular">
+        <!-- Başlık -->
+        <div class="heading">
+            <h2 class="heading-title">Popüler Filmler</h2>
+            <!-- Swipper Buttons -->
+            <diV class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <!-- İçerik -->
+        <div class="pupular-content swiper">
+            <div class="swiper-wrapper">
+                <!-- Film kutusu 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/img7.webp" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Black Panther: Yaşasın Wakanda</h2>
+                            <span class="movie-type"> Aksiyon/Macera</span>
+                            <a href="play-page.html" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>     
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Film kutusu 2 -->
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                       <a href="Thor.html"> <img src="img/img8.jpg" alt="" class="movie-box-img"> </a>
+                        <div class="box-text">
+                            <h2 class="movie-title">Thor: Aşk ve Gök Gürültüsü</h2>
+                            <span class="movie-type"> Aksiyon/Macera</span>
+                            <a href="Thor.html" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>     
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Film kutusu 3 -->
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/img111.webp" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Avatar: Suyun Yolu</h2>
+                            <span class="movie-type">Bilim Kurgu/Aksiyon</span>
+                            <a href="Avatar.html" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>     
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Film kutusu 4 -->
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/img9.webp" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Black Adam</h2>
+                            <span class="movie-type">Aksiyon/Macera</span>
+                            <a href="Black -Adam.html" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>     
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Film kutusu 5 -->
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/img10.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Godzilla vs. Kong</h2>
+                            <span class="movie-type">Bilim Kurgu/Aksiyon</span>
+                            <a href="Godzilla-vs-kong.html" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>     
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Film kutusu 6 -->
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/img16.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Kirpi Sonic 2</h2>
+                            <span class="movie-type">Macera/Komedi</span>
+                            <a href="Kirpi-sonic.html" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>     
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Film kutusu 7 -->
+                 <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="img/img12.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Örümcek-Adam: Eve Dönüş Yok</h2>
+                            <span class="movie-type">Aksiyon/Macera</span>
+                            <a href="Spiderman.html" class="watch-btn play-btn">
+                                <i class="bx bx-right-arrow"></i>     
+                            </a>
+                        </div>
+                    </div>
+                </div>
+              <!-- Film kutusu 9 -->
+              <div class="swiper-slide">
+                <div class="movie-box">
+                    <img src="img/img15.jpg" alt="" class="movie-box-img">
+                    <div class="box-text">
+                        <h2 class="movie-title">Grimcutty</h2>
+                        <span class="movie-type">Drama</span>
+                        <a href="Grimcutty.html" class="watch-btn play-btn">
+                            <i class="bx bx-right-arrow"></i>     
+                        </a>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+     </section>
+     <!-- Populer Filmler End -->
+     <!-- Fantastik Filmler Start -->
+     <section class="movies container" id="movies">
+        <!-- Başlık -->
+        <div class="heading">
+            <h2 class="heading-title"> Fantastik Filmler </h2>
+        </div>  
+         <!-- Movies Content -->
+         <div class="movies-content">
+            <!-- Movies Box 1 -->
+            <div class="movie-box">
+                <img src="img/Movies-fantastik.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Fantastik Canavarlar: Dumbledore'un Sırları</h2>
+                    <span class="movie-type">Fantastik/Macera</span>
+                    <a href="Fantastik-cnvr.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 2 -->
+               <div class="movie-box">
+                <img src="img/Movies-3.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Mortal Kombat</h2>
+                    <span class="movie-type"> Aksiyon/Fantastik</span>
+                    <a href="Mortal-combat.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 3 -->
+               <div class="movie-box">
+                <img src="img/Movies-4.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Warcraft</h2>
+                    <span class="movie-type">Fantastik/Aksiyon</span>
+                    <a href="Warcraft.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 4 -->
+               <div class="movie-box">
+                <img src="img/Movies-5.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Kral Arthur: Kılıç Efsanesi</h2>
+                    <span class="movie-type">Fantastik/Dram</span>
+                    <a href="King-Arthur.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 5 -->
+               <div class="movie-box">
+                <img src="img/Movies-6.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Yüzüklerin Efendisi: Yüzük Kardeşliği</h2>
+                    <span class="movie-type">Fantastik/Macera</span>
+                    <a href="Lord-of-Rings.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 6 -->
+               <div class="movie-box">
+                <img src="img/Movies-7.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Yüzüklerin Efendisi: İki Kule</h2>
+                    <span class="movie-type">Fantastik/Macera</span>
+                    <a href="Lord-of-Rings-2.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 7 -->
+               <div class="movie-box">
+                <img src="img/Movies-yüzük.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Yüzüklerin Efendisi: Kralın Dönüşü</h2>
+                    <span class="movie-type">Fantastik/Macera</span>
+                    <a href="Lord-of-Rings-3.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 8 -->
+               <div class="movie-box">
+                <img src="img/Movies-8.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Dev Avcısı Jack</h2>
+                    <span class="movie-type">Fantastik/Macera</span>
+                    <a href="Dev-Avcısı.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+            
+         </div>
+     </section>
+     <!-- Fantastik Filmler End -->
+
+
+     <!-- Aksiyon Filmler Start -->
+     <section class="movies container" id="movies2">
+        <!-- Başlık -->
+        <div class="heading">
+            <h2 class="heading-title"> Aksiyon Filmleri </h2>
+        </div>  
+         <!-- Movies Content -->
+         <div class="movies-content">
+            <!-- Movies Box 1 -->
+            <div class="movie-box">
+                <img src="img/Aksiyon-1.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Batman</h2>
+                    <span class="movie-type">Aksiyon/Macera</span>
+                    <a href="The-Batman.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 2 -->
+               <div class="movie-box">
+                <img src="img/Aksion-2.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Bloodshot: Durdurulamaz Güç</h2>
+                    <span class="movie-type"> Aksiyon/Bilim Kurgu</span>
+                    <a href="Bloodshot.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 3 -->
+               <div class="movie-box">
+                <img src="img/Aksiyon-3.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">The Suicide Squad: İntihar Timi</h2>
+                    <span class="movie-type">Aksiyon/Bilim Kurgu</span>
+                    <a href="The-Suicide-Squad.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 4 -->
+               <div class="movie-box">
+                <img src="img/Aksion-4.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">300: Bir İmparatorluğun Yükselişi</h2>
+                    <span class="movie-type">Aksiyon/Savaş</span>
+                    <a href="300-Siparta.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 5 -->
+               <div class="movie-box">
+                <img src="img/Aksiyon-trip.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Triple Frontier</h2>
+                    <span class="movie-type">Aksiyon/Soygun</span>
+                    <a href="Triple-Frontier.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 6 -->
+               <div class="movie-box">
+                <img src="img/Aksiyon-extr.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Extraction</h2>
+                    <span class="movie-type"> Aksiyon/Gerilim</span>
+                    <a href="Extraction.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 7 -->
+               <div class="movie-box">
+                <img src="img/Aksiyon-7.png" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Midway</h2>
+                    <span class="movie-type">Fantastik/Macera</span>
+                    <a href="Midway.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 8 -->
+               <div class="movie-box">
+                <img src="img/Aksiyon-8.webp" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">13 Hours</h2>
+                    <span class="movie-type"> Savaş/Aksiyon</span>
+                    <a href="13-Hours.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+         </div>
+     </section>
+     <!-- Aksiyon Filmler End -->
+
+     <!-- listem Start -->
+     <section class="movies container" id="listem">
+        <!-- Başlık -->
+        <div class="heading">
+            <h2 class="heading-title"> Listem </h2>
+        </div>  
+         <!-- Movies Content -->
+         <div class="movies-content">
+            <!-- Movies Box 1 -->
+            <div class="movie-box">
+                <img src="img/Movies-fantastik.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Fantastik Canavarlar: Dumbledore'un Sırları</h2>
+                    <span class="movie-type">Fantastik/Macera</span>
+                    <a href="Fantastik-cnvr.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 2 -->
+               <div class="movie-box">
+                <img src="img/Movies-3.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Mortal Kombat</h2>
+                    <span class="movie-type"> Aksiyon/Fantastik</span>
+                    <a href="Mortal-combat.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 3 -->
+               <div class="movie-box">
+                <img src="img/Movies-4.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Warcraft</h2>
+                    <span class="movie-type">Fantastik/Aksiyon</span>
+                    <a href="Warcraft.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+               <!-- Movies Box 4 -->
+               <div class="movie-box">
+                <img src="img/Movies-5.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Kral Arthur: Kılıç Efsanesi</h2>
+                    <span class="movie-type">Fantastik/Dram</span>
+                    <a href="King-Arthur.html" class="watch-btn play-btn">
+                        <i class="bx bx-right-arrow"></i>     
+                    </a>
+                </div>
+            </div>
+            </div>
+         </div>
+     </section>
+     <!-- Listem End -->
+
+     <!-- Next Page -->
+     <div class="next-page">
+        <a href="#" class="next-btn">Yenile</a>
+     </div>
+
+
+     <!-- Telif Hakkı -->
+     <div class="copyright">
+        <p>&#169; Tüm Hakları Saklıdır</p>
+     </div>
+
+     <!-- Swiper JS Link -->
+     <script src="js/swiper-bundle.min.js"></script>
+    <!-- JS link -->
+    <script src="main.js"></script>
+</body>
+</html>

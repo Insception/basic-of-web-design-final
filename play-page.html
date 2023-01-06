@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Panther: Yaşasın Wakanda</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Box İcon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Başlık -->
+    <header>
+      <div class="nav container">
+        <!-- logo -->
+        <a href="index.html" class="logo"> film<span>izle</span> </a>
+        <!-- Arama Kutusu -->
+        <div class="search-box">
+          <input
+            type="search"
+            name=""
+            id="search-input"
+            placeholder="Film ara"
+          />
+          <i class="bx bx-search"></i>
+        </div>
+        <!-- Kullanıcı -->
+        <a href="#" class="user">
+          <img src="img/profile-2.jpg" class="user-img" alt="" />
+        </a>
+        <!-- Navbar -->
+        <div class="navbar">
+          <a href="index.html" class="navlink nav-active">
+            <i class="bx bx-home"></i>
+            <span class="nav-link-title">Home</span>
+          </a>
+          <a href="#home" class="navlink">
+            <i class="bx bxs-hot"></i>
+            <span class="nav-link-title">Trendler</span>
+          </a>
+          <a href="#home" class="navlink">
+            <i class="bx bx-compass"></i>
+            <span class="nav-link-title">Keşfet</span>
+          </a>
+          <a href="#home" class="navlink">
+            <i class="bx bx-tv"></i>
+            <span class="nav-link-title">Filmler</span>
+          </a>
+          <a href="#home" class="navlink">
+            <i class="bx bx-heart"></i>
+            <span class="nav-link-title">Favori</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Play Movie Container -->
+    <div class="play-container container">
+      <!-- Play Image -->
+      <img src="img/backgraund-panter.jpg" alt="" class="play-img" />
+      <!-- Play Text -->
+      <div class="play-text">
+        <h2>Black Panther: Yaşasın Wakanda</h2>
+        <!-- Ratings -->
+        <div class="rating">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star-half"></i>
+        </div>
+        <!-- Tags -->
+        <div class="tags">
+          <span>Aksiyon</span>
+          <span>Macera</span>
+          <span>4K</span>
+        </div>
+        <!-- Trailer Button-->
+        <a href="#" class="watch-btn">
+          <i class="bx bx-right-arrow"></i>
+          <span>Fragman İzle</span>
+        </a>
+      </div>
+      <!-- Play Btn -->
+      <i class='bx bx-right-arrow play-movie'></i>
+      <!-- Video İçeriği -->
+      <div class="video-container">
+        <!-- Video Kutusu -->
+        <div class="video-box">
+          <video id="myvideo" src="Video/Black Panther Wakanda Forever.mp4" controls ></video>
+          <!-- Videoyu Kapat İcon-->
+          <i class='bx bx-x close-video'></i>
+        </div>
+      </div>
+    </div>
+    <!-- Hakkında -->
+    <div class="about-movie container">
+      <h2>Black Panther: Yaşasın Wakanda</h2>
+      <p>
+        Black Panther: Yaşasın Wakanda, uluslarını tehdit eden dünya güçlerine
+        karşı savaşmaya hazır olan Queen Ramonda, Shuri, M'Baku, Okoye ve Dora
+        Milaje'nin hikayesini konu ediyor. Kral T'Challa'nın ölümünün ardından,
+        onlara müdahale etmeye çalışan dünya güçleri ortaya çıkar. Uluslarını bu
+        tehdite karşı korumaya kararlı olan Queen Ramonda, Shuri, M'Baku, Okoye
+        ve Dora Milaje, savaşmak için hazırdır. Hayatlarının bir sonraki
+        bölümüne geçen Wakanda halkı, bunu benimsemek için çabalar. Bu sırada
+        War Dog Nakia ve Everett Ross'un yardımıyla bir araya gelen kahramanlar,
+        Wakanda Krallığı için yeni bir yol çizmeye çalışır.
+      </p>
+      <!-- Film Oyuncuları  -->
+      <h2 class="cast-heading">Film Oyuncuları</h2>
+      <div class="cast">
+        <div class="cast-box">
+            <img src="img/Oyuncu/Oyuncu-1.jpg" alt="" class="cast-img">
+            <span class="cast-title">Michael B. Jordan </span>
+        </div>
+        <div class="cast-box">
+            <img src="img/Oyuncu/Oyuncu-2.jpg" alt="" class="cast-img">
+            <span class="cast-title">Letitia Wright</span>
+        </div>
+        <div class="cast-box">
+            <img src="img/Oyuncu/Oyuncu-3.jpg" alt="" class="cast-img">
+            <span class="cast-title">Angela Bassett</span>
+        </div>
+        <div class="cast-box">
+            <img src="img/Oyuncu/Oyuncu-4.jpg" alt="" class="cast-img">
+            <span class="cast-title">Daniel Kaluuya</span>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+      <p>&#169;Tüm Hakları Saklıdır</p>
+    </div>
+
+    <!-- Link Swiper Dosyası -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- JS link -->
+    <script src="main.js"></script>
+  </body>
+</html>
